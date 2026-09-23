@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ala-Too University</title>
+</head>
+<body>
+   <h1>alatoo</h1>
+      <p>Условные данные для разбора таблиц. Таблицы предназначены для данных, не для вёрстки страницы.</p>
+      <!-- table — таблица; caption — её название; tr — строка;
+           th — заголовочная ячейка; td — ячейка с данными.
+           Без CSS браузер может не рисовать границы. Это нормально. -->
+      <table>
+        <caption>Пример расписания занятий</caption>
+        <thead>
+          <tr>
+            <th scope="col">День</th>
+            <th scope="col">Время</th>
+            <th scope="col">Предмет</th>
+            <th scope="col">Аудитория</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="rowgroup" rowspan="2">Понедельник</th>
+            <td>09:00–09:40</td>
+            <td>Web Programming</td>
+            <td>001</td>
+          </tr>
+          <tr>
+            <td>09:50–10:30</td>
+            <td>Практика HTML</td>
+            <td>001</td>
+          </tr>
+          <tr>
+            <th scope="row">Среда</th>
+            <td>10:40–11:20</td>
+            <td>Анализ данных</td>
+            <td>002</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th scope="row" colspan="3">Всего занятий</th>
+            <td>3</td>
+          </tr>
+        </tfoot>
+      </table>
+      <!-- rowspan объединяет строки, colspan — столбцы. -->
+    </section>
+
+    <section id="media">
+      <h2>Изображения и медиа</h2> 
+      <img src="https://gb.ru/blog/wp-content/uploads/2022/11/1-17.jpg.webp"<p></p>
+
+
+
+</body>
+</html>
+<table border="1">
+    <tr>
+        <th>Предмет</th>
+        <th>Навыки в предмете</th>
+        
+    </tr>
+    <tr>
+        <td>Web Programming</td>
+        <td>60%</td>
+        
+    </tr>
+    <tr>
+        <td>Programming Language</td>
+        <td>75%</td>
+       
+    </tr>
+</table>
+  <footer>
+    <hr>
+    <h2>Контакты учебного проекта</h2>
+    <!-- address — контактные сведения автора или организации, а не любой адрес.
+         example.com используется для демонстрации, это не контакт университета. -->
+    <address>
+      Автор: Муслимов Эрбол.<br>
+      Пример email: <a href="mailto:student@example.com">student@example.com</a>.
+    </address>
+    <p><small>&copy; 2026. Учебный макет на тему Ala-Too. Все анкеты и расписание демонстрационные.</small></p>
+    <p><a href="#top">Вернуться наверх ↑</a></p>
+  </footer>
+</body>
+</html>
